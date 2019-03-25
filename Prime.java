@@ -11,6 +11,8 @@ public class Prime {
 	
 }
 
+	//Doublette missing!
+
 	
 	public static int isPrime (int a) {
 	 if ( a%1==0 && a%a==0 && a%2!=0  && a%3!=0 ) {
