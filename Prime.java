@@ -2,6 +2,27 @@ import java.util.Scanner;
 
 
 public class Prime {
+	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter the number");
+	int a = scan.nextInt();
+	
+	System.out.println(isPrime(a));
+	
+}
+
+	
+	public static int isPrime (int a) {
+	 if ( a%1==0 && a%a==0 && a%2!=0  && a%3!=0 ) {
+		 System.out.println("number is prime");
+		
+	 }else {
+	System.out.println("Number is not prime");	 
+	 }
+	 return a;
+	 }
+		
+}		
 		
 	//todo: write a method isPrime which tells you if a given number is a prime or not
 	//then, write another method findDoublette which takes an integer value as input and 
@@ -12,4 +33,4 @@ public class Prime {
 	//the function should return 0.
 		
 	
-}
+
